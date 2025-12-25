@@ -1,0 +1,125 @@
+/*=============== CONTACT PAGE ===============*/
+.contact__container {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.contact__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.contact__subtitle {
+  margin-top: .75rem;
+  color: var(--text-color);
+}
+
+/* Content */
+.contact-content__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.contact-info__item {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.contact-info__item i {
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+/* Form */
+.contact-form {
+  background-color: var(--white-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,.1);
+}
+
+.contact-form__group input,
+.contact-form__group textarea {
+  width: 100%;
+  padding: .75rem 1rem;
+  border: 1px solid var(--gray-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  background: transparent;
+  color: var(--text-color);
+}
+
+.contact-form__group input:focus,
+.contact-form__group textarea:focus {
+  border-color: var(--first-color);
+  outline: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .contact-content__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+/*=============== CONTACT FORM ===============*/
+.contact-form {
+  background-color: var(--white-color);
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,.12);
+  max-width: 520px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: .85rem 1rem;
+  margin-bottom: 1.1rem;
+  border-radius: .75rem;
+  border: 1px solid var(--gray-color);
+  font-size: var(--normal-font-size);
+  background-color: transparent;
+  color: var(--text-color);
+  transition: 
+    border-color .3s ease,
+    box-shadow .3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--text-color-light);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--first-color);
+  box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.15);
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+/* Submit button spacing */
+.contact-form .button {
+  width: 100%;
+  margin-top: .5rem;
+  border: 0;
+}
+
+/* Status message */
+#formStatus {
+  margin-top: .75rem;
+  font-size: var(--small-font-size);
+}

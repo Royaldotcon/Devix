@@ -1,0 +1,38 @@
+/*=============== SERVICES ===============*/
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 2fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.service__card {
+  background-color: var(--white-color);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 28px rgba(0,0,0,.12);
+  transition: transform .35s ease, box-shadow .35s ease;
+  color: inherit;
+  text-align: center;
+}
+
+.service__card i {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-bottom: .75rem;
+  display: block;
+}
+
+.service__card h3 {
+  font-size: .6rem;
+  color: var(--title-color);
+}
+
+.service__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 40px rgba(0,0,0,.18);
+}
+
+.section__subtitle{
+  text-align: center;
+}
