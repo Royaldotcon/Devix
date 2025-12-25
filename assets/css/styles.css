@@ -441,7 +441,10 @@ body.dark-theme .header {
 }
 
 /*=============== TECHNOLOGIES ===============*/
-.technologies__container {
+.technologies .technologies__container{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   display: flex;
   justify-content: center;
   gap: 2.5rem;
