@@ -232,7 +232,7 @@ body.dark-theme .header {
     position: fixed;
     top: -1200%;
     right: 0;
-    width: 23%;
+    width: 30%;
     background-color: var(--body-color);
     box-shadow: 0 4px 16px rgba(28, 77, 15, 0.3);
     padding: 3.5rem 4rem 1.5rem 1rem;
@@ -283,7 +283,7 @@ body.dark-theme .header {
 .nav__close{
   position: absolute;
   top: 1rem;
-  right: 3rem;
+  right: 4rem;
 }
 
 /* Show menu */
