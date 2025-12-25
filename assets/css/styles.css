@@ -800,17 +800,17 @@ body.dark-theme .header {
 
 /* Individual colors */
 .floating-item.whatsapp {
-  background-color: #ffffff00;
+  background-color: #ffffff;
   border: solid #25D366 1px;
 }
 
 .floating-item.mail {
-  background-color: #ffffff00;
+  background-color: #ffffff;
   border: solid #25d333 1px;
 }
 
 .floating-item.call {
-  background-color: #ffffff00;
+  background-color: #ffffff;
   border: solid #25d333 1px;
 }
 
